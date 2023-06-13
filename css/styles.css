@@ -1,0 +1,52 @@
+body {
+  margin: 20px;
+}
+
+body.background {
+  opacity: 0.5;
+}
+
+h1,
+h3 {
+  background-color: rgba(152, 175, 183, 0.9);
+  width: 500px;
+
+  border-radius: 1000px;
+  text-align: center;
+}
+/* #title {
+  width: auto;
+  align-content: center;
+  justify-content: center;
+} */
+select {
+  background-color: rgba(152, 175, 183, 0.8);
+}
+
+table,
+div,
+h2 {
+  /* background-color: rgba(152, 175, 183, 0.8); */
+  text-align: center;
+  padding-bottom: 10px;
+}
+a {
+  text-align: center;
+  text-decoration: underline;
+  color: black;
+}
+td,
+tr,
+th {
+  background-color: rgba(152, 175, 183);
+  border: 1px black solid;
+}
+table {
+  background-color: antiquewhite;
+}
+#nav,
+#title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
